@@ -107,7 +107,7 @@
   cursor:pointer;
   font-family:'Nothing You Could Do', cursive;
   font-size: 2em;
-  margin: 4% 9%;
+  margin: 4% 8%;
 }
 
 /*** END OF SERVICES ***/
@@ -121,7 +121,7 @@
 #aboutme-pic {
   border:1px solid #000000;
   margin-top:30%;
-  width:90%;
+  width:100%;
 }
 
 #about-script {
@@ -137,14 +137,10 @@
   font-size: .9em;
   float:left;
   width:100%;
+  margin-left:-2%;
 }
 
-#about-script-2 {
-  font-family: 'Playfair Display', serif;
-  font-size:1em;
-  padding:4%;
-  width:100%;
-}
+
 
 /*** END OF ABOUT ME ***/
 
@@ -184,6 +180,52 @@ input {
   border:1px solid #000000;
 }
 
+/**FOOTER AREA **/
+
+  footer {
+    background-color:#ff8080;
+  }
+
+  #social-media {
+    border-top:1px solid #000000;
+  }
+
+  .icon-menu {
+    list-style:none;
+    margin-left:25%;
+ }
+
+ .icon-menu li {
+   display:inline;
+  }
+
+
+ #github, #facebook, #linkedin {
+  width:15%;
+  float:left;
+  padding:1%;
+ }
+
+
+  #copyright {
+    margin-left:20%;
+  }
+
+  #sketchme {
+    border:1px solid #000000;
+    border-radius:100%;
+    width:5%;
+    float:left;
+  }
+
+  #copyright p {
+    font-family: 'Nothing You Could Do', cursive;
+    float:left;
+    margin-left: 1%;
+  }
+
+/**END OF FOOTER AREA **/
+
 /** END OF CONTACTS ***/
 
 /********PORTFOLIO ************/
@@ -200,15 +242,17 @@ input {
 }
 
 .project-menu {
+  background-color:#ff9999;
+  border: 1px solid #000000;
   list-style:none;
   font-family: 'Playfair Display', serif;
   font-size: 1.25em;
-  margin:0% 10%;
+  margin:2% 10%;
 }
 
 .project-menu li {
   display:inline;
-  padding:2%;
+  padding:4%;
 }
 
 .project-menu li a {
@@ -271,12 +315,18 @@ input {
 }
 
 #skillsbox {
-  width:98%;
+  width:65%;
+  background-color:#cccccc;
+  border:1px solid #000000;
+  margin-left:18%;
 }
 
 #skillsbox h2 {
   font-family:'Playfair Display', serif;
   text-align: center;
+  font-size:1.5em;
+  text-decoration: underline;
+  text-decoration-color: #ff0000;
 }
 
 .skill-set {
@@ -288,10 +338,9 @@ input {
 }
 
 #html, #css, #jquery, #bootstrap, #javascript, #node, #react, #postgres {
-  width:10%;
+  width:20%;
   float:left;
-  padding:2%;
-  margin:4% 1%;
+  margin:2% 1%;
 }
 
 #project4, #project5, #project6 {
@@ -307,7 +356,7 @@ input {
   color:#000000;
 }
 
-#project7, #project8, #project9 {
+#project7, #project8, #project9, #project10 {
   font-family: 'Playfair Display', serif;
   font-size: 1em;
   text-align: center;
@@ -316,7 +365,7 @@ input {
 }
 
 
-#project7 a, #project8 a, #project9 a {
+#project7 a, #project8 a, #project9 a, #project10 a {
   text-decoration-color: #ff0000;
   color:#000000;
 }
@@ -365,9 +414,28 @@ input {
     font-size: 1em;
   }
 
+  .icon-menu {
+    margin-left:30%;
+  }
+
+ .icon-menu li {
+   margin:0% -12%;
+  }
+
   /*** portfolio area ***/
   .project-menu {
-    margin:0% 18%;
+    margin:2% 20%;
+  }
+
+  /***Contacts/footer area ***/
+
+   #copyright {
+    margin-left:25%;
+    padding:2%;
+  }
+
+  #copyright p {
+    font-size: 1.25em;
   }
 
 }
@@ -397,7 +465,7 @@ input {
   }
 
   #port {
-    margin:4% 32%;
+    margin:4% 30%;
   }
 
 /*** About Me ***/
@@ -415,10 +483,35 @@ input {
   width:60%;
  }
 
+
+ /*** contact area ***/
+
+ .icon-menu {
+    margin-left:30%;
+  }
+
+
+ #github, #facebook, #linkedin {
+  width:15%;
+ }
+
+ #sketchme {
+    width:4%;
+ }
+
+ #copyright {
+  margin-left: 30%;
+ }
+
+ #copyright p {
+  font-size:1.25em;
+ }
+
+
 /*** PORTFOLIO AREA ***/
 
   .project-menu {
-    margin:0% 30%;
+    margin:2% 30%;
   }
 
   #black-logo {
@@ -476,32 +569,64 @@ input {
     margin-left:1%;
   }
 
+ .icon-menu {
+    margin-left:34%;
+  }
+
+ #github, #facebook, #linkedin {
+  width:10%;
+ }
+
+ #sketchme {
+    width:4%;
+ }
+
+ #copyright {
+  margin-left:30%;
+ }
+
+ #copyright p {
+  font-size:1.30em;
+ }
+
+
+
+
 /*** PORTFOLIO AREA ***/
 
 #port-logo {
   width:38%;
   margin: 2% -2%;
+  float: left;
 }
 
 .project-menu {
-  background-color:#ffb3b3;
+  margin-left:16%;
+  width:70%;
 }
 
+.project-menu li {
+  padding:4%;
+  margin-left:-6%;
+}
 
+#second {
+  margin-top:-60%;
+}
 
 #project1, #project2, #project3 {
   width:18%;
-  margin-left:-1%;
-  margin-top: 2%;
-  padding:2% 1%;
+  margin-left:1%;
+  margin-top: -24%;
+  padding:2% 2%;
   font-size: .9em;
 }
 
 #skillsbox {
-  width:28%;
-  margin-top:-6%;
-  margin-left:4%;
-  background-color:#ffb3b3;
+  width:25%;
+  margin-top:2%;
+  margin-left:5%;
+  clear:both;
 }
 
 #skillsbox h2 {
@@ -509,13 +634,18 @@ input {
 }
 
 #html, #css, #jquery, #bootstrap, #javascript, #node, #react, #postgres {
-  width:35%;
+  width:32%;
+}
+
+#third {
+  margin-top:-40%;
 }
 
 #project4 {
   width:18%;
   font-size:.9em;
-  margin-left:5%;
+  margin-left:4%;
+  margin-top: -2%;
 }
 
 #project5 {
@@ -528,7 +658,6 @@ input {
   width:18%;
   font-size:.9em;
   margin-left:-3%;
-  margin-top:1%;
 }
 
 #replication, #newsletter, #template {
@@ -536,29 +665,23 @@ input {
 
 }
 
-#project7, #project8,#project9 {
-  width:18%;
+#project7, #project8, #project9, #project10 {
+  width:16%;
   font-size: .9em;
-  padding:0% -1%;
+  padding:0% 1%;
+  margin-top: 2%;
 }
 
-#third-row {
-  margin-left:30%;
-  margin-top:1%;
-  width:91%;
- }
 
-#codewoke {
-  margin-left:-4%;
- }
+
 
 
 }
 
 
-/*** LARGER DESKTOPS/JUMBOTRONS ***/
+/*** LARGER DESKTOPS***/
 
-@media only screen and (min-width:1201px) and (max-width:1600px) {
+@media only screen and (min-width:1201px) and (max-width:1500px) {
 
 #menu-container {
   font-size:1.75em;
@@ -584,6 +707,15 @@ input {
     margin: 1% 1%;
   }
 
+  #services-intro p {
+    font-size: 1.5em;
+    padding:2%;
+  }
+
+  #services-script p {
+  font-size: 1.5em;
+}
+
   #port {
     margin:4% 34%;
   }
@@ -598,33 +730,60 @@ input {
     font-size: 1.5em;
   }
 
+/***Contacts area ***/
+
+.icon-menu {
+    margin-left:38%;
+  }
+
+ #github, #facebook, #linkedin {
+  width:8%;
+ }
+
+ #sketchme {
+  width:3%;
+ }
+
+ #copyright {
+  margin-left:34%;
+ }
+
+ #copyright p {
+  font-size:1.50em;
+ }
+
+
+
+
   /*** PORTFOLIO AREA ***/
 
-  #port-logo {
-  width:42%;
+#port-logo {
+  width:40%;
   margin: 2% -2%;
 }
 
 .project-menu {
   margin:0% 16%;
   font-size: 1.5em;
-  background-color:#ffb3b3;
 }
 
+#second {
+  margin-top:-40%;
+}
 
 #project1, #project2, #project3 {
-  width:18%;
-  margin-left: -2%;
-  margin-top: 2%;
-  padding:2% 1%;
+  width:16%;
+  margin-left: 3%;
+  margin-top: -20%;
+  padding:1% 1%;
   font-size:1em;
 }
 
 #skillsbox {
-  width:28%;
-  margin-top:-2%;
-  margin-left:4%;
-  background-color:#ffb3b3;
+  width:25%;
+  margin-top: 2%;
+  margin-left:6%;
+  clear:both;
 }
 
 #skillsbox h2 {
@@ -634,48 +793,42 @@ input {
 
 #html, #css, #jquery, #bootstrap, #javascript, #node, #react, #postgres {
   width:32%;
+}
 
+#third {
+  margin-top:-38%;
 }
 
 #project4 {
   width:18%;
   font-size:1em;
-  margin-left:5%;
+  margin-left:3%;
+  margin-top: -1%;
 }
 
 #project5 {
   width:18%;
   font-size:1em;
-  margin-left:-1%;
+  margin-left:1%;
 }
 
 #project6 {
   width:18%;
   font-size:1em;
-  margin-left:-3%;
-  margin-top:1%;
+  margin-left:-1%;
 }
 
 #replication, #newsletter, #template {
   width:90%;
  }
 
- #third-row {
-  margin-left:40%;
-  margin-top:-12%;
-  width:90%;
- }
-#project7, #project8,#project9 {
-  width:18%;
-  font-size: .9em;
-  padding:0% -1%;
-}
 
-#third-row {
-  margin-left:30%;
-  margin-top:-10%;
-  width:91%;
- }
+#project7, #project8,#project9, #project10 {
+  width:16%;
+  font-size: 1em;
+  padding:0% 0%;
+  margin-top:2%;
+}
 
 #codewoke {
   margin-left:-4%;
@@ -683,3 +836,171 @@ input {
 
 
 }
+
+/** JUMBOTRONS **/
+@media only screen and (min-width:1501px) and (max-width:1800px) {
+
+#header-logo {
+  width:65%;
+  margin:4% 14%;
+}
+
+#menu-container {
+  font-size:1.75em;
+  margin:-5% 28%;
+  padding:5%;
+}
+
+.sub-header {
+  font-size: 2em;
+  margin-top: 2%;
+  margin-left:0%;
+}
+
+#services-script {
+    width:30%;
+    margin-left:2%;
+}
+
+#services-script p {
+  font-size: 1.5em;
+}
+
+#services-intro p {
+  font-size: 1.5em;
+  padding:2%;
+}
+
+#services-intro h3 {
+  font-size: 2.75em;
+}
+
+#port{
+  margin:4% 38%;
+}
+
+#aboutme-pic {
+    margin-top:0%;
+    width:60%;
+  }
+
+#about-script h2 {
+  font-size: 3em;
+}
+
+#about-script p {
+ font-size: 1.75em;
+}
+
+.icon-menu {
+  margin-left:40%;
+}
+
+ #github, #facebook, #linkedin {
+  width:8%;
+ }
+
+ #sketchme {
+  width:3%;
+ }
+
+ #copyright {
+  margin-left:38%;
+ }
+
+ #copyright p {
+  font-size:1.50em;
+ }
+
+/** Portfolio Area **/
+
+#port-logo {
+  width:34%;
+  margin: 2% -2%;
+  float: left;
+}
+
+.project-menu {
+  margin-left:16%;
+  width:70%;
+}
+
+.project-menu li {
+  padding:4%;
+  margin-left:4%;
+}
+
+#second {
+  margin-top:-40%;
+}
+
+#project1, #project2, #project3 {
+  width:14%;
+  margin-left:2%;
+  margin-top: -20%;
+  padding:2% 2%;
+  font-size:1em;
+}
+
+#skillsbox {
+  width:20%;
+  margin-top: 2%;
+  margin-left:6%;
+  clear:both;
+}
+
+#skillsbox h2 {
+  font-size: 1.75em;
+  margin-left: -8%;
+}
+
+#html, #css, #jquery, #bootstrap, #javascript, #node, #react, #postgres {
+  width:32%;
+}
+
+#third {
+  margin-top:-20%;
+  margin-left:2%;
+}
+
+#project4 {
+  width:14%;
+  font-size:1em;
+  margin-left:3%;
+  margin-top:-1%;
+}
+
+#project5 {
+  width:14%;
+  font-size:1em;
+  margin-left:3%;
+}
+
+#project6 {
+  width:14%;
+  font-size:1em;
+  margin-left:0%;
+}
+
+#replication, #newsletter, #template {
+  width:85%;
+ }
+
+ #project7, #project8,#project9, #project10 {
+  width:14%;
+  font-size: 1em;
+  padding:0% 0%;
+  margin-top:2%;
+}
+
+#codewoke {
+  margin-left:-4%;
+ }
+
+
+
+
+
+}
+
+
