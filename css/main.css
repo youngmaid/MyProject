@@ -644,7 +644,8 @@ input {
   
 #xd, #bootstrap {
   width:40%;
-  }
+  margin-top:2%;
+ }
 
 #third {
   margin-top:-40%;
@@ -806,6 +807,7 @@ input {
 
 #xd, #bootstrap {
   width:40%;
+  margin-top:2%;
  }
 
 #third {
@@ -973,6 +975,7 @@ input {
   
 #xd, #bootstrap {
   width:40%;
+  margin-top:2%;
 }
 
 #third {
