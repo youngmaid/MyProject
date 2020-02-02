@@ -337,10 +337,15 @@ input {
   display:inline;
 }
 
-#html, #css, #bootstrap, #javascript, #figma, #xd {
+#html, #css, #bootstrap, #javascript, #figma {
   width:20%;
   float:left;
   margin:2% 1%;
+}
+
+#xd {
+  width:30%;
+  margin:1% 1%;
 }
 
 #project4, #project5, #project6 {
