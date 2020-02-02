@@ -345,7 +345,7 @@ input {
 
 #xd {
   width:30%;
-  margin:1% 1%;
+  margin:2% 1%;
 }
 
 #project4, #project5, #project6 {
@@ -638,9 +638,13 @@ input {
   font-size: 1.5em;
 }
 
-#html, #css, #figma, #xd, #bootstrap, #javascript {
+#html, #css, #figma, #bootstrap, #javascript {
   width:32%;
 }
+  
+#xd {
+  width:40%;
+  }
 
 #third {
   margin-top:-40%;
