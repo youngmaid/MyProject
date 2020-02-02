@@ -638,11 +638,11 @@ input {
   font-size: 1.5em;
 }
 
-#html, #css, #figma, #bootstrap, #javascript {
+#html, #css, #figma, #javascript {
   width:32%;
 }
   
-#xd {
+#xd, #bootstrap {
   width:40%;
   }
 
@@ -800,9 +800,13 @@ input {
   margin-left: -8%;
 }
 
-#html, #css, #jquery, #bootstrap, #javascript, #node, #react, #postgres {
+#html, #css, #figma, #javascript {
   width:32%;
 }
+
+#xd, #bootstrap {
+  width:40%;
+ }
 
 #third {
   margin-top:-38%;
@@ -963,8 +967,12 @@ input {
   margin-left: -8%;
 }
 
-#html, #css, #jquery, #bootstrap, #javascript, #node, #react, #postgres {
+#html, #css, #bootstrap, #figma, #javascript {
   width:32%;
+}
+  
+#xd, #bootstrap {
+  width:40%;
 }
 
 #third {
