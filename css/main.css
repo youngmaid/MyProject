@@ -337,8 +337,14 @@ input {
   display:inline;
 }
 
-#html, #css, #figma, #bootstrap, #javascript, #node, #react, #postgres {
+#html, #css, #bootstrap, #javascript, #node, #react, #postgres {
   width:20%;
+  float:left;
+  margin:2% 1%;
+}
+
+#figma {
+  width:10%;
   float:left;
   margin:2% 1%;
 }
