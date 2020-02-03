@@ -316,8 +316,7 @@ input {
 
 #skillsbox {
   width:65%;
-  background-color:#cccccc;
-  border:1px solid #000000;
+  background-color:#ebebeb;
   margin-left:18%;
 }
 
@@ -333,19 +332,30 @@ input {
   list-style: none;
 }
 
-.skill-set li {
+.skill-set li img {
   display:inline;
 }
 
-#html, #css, #bootstrap, #javascript, #figma {
+#html, #css, #bootstrap, #javascript, #xd {
   width:20%;
   float:left;
-  margin:2% 1%;
+  margin:2% 4%;
+}
+
+#bootstrap {
+  width:50%;
+  margin-left:-12%;
 }
 
 #xd {
-  width:30%;
-  margin:2% 1%;
+  margin-left:-8%;
+  margin-top:8%;
+}
+
+#figma {
+  width:10%;
+  margin-top:35%;
+  margin-left:-18%;
 }
 
 #project4, #project5, #project6 {
@@ -359,6 +369,11 @@ input {
 #project4 a, #project5 a, #project6 a {
   text-decoration-color: #ff0000;
   color:#000000;
+}
+
+#b12-title {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
 }
 
 #project7, #project8, #project9, #project10 {
@@ -445,7 +460,7 @@ input {
 
 }
 
-/*** TABLETS/LAPTOPS ***/
+/*** TABLETS/SMALL LAPTOPS ***/
 @media only screen and (max-width:900px) and (min-width:768px) {
 
   #menu-container {
@@ -524,9 +539,31 @@ input {
     margin:0% 10%;
   }
 
+  #html, #css, #javascript, #xd  {
+    width:15%;
+  }
+
+  #bootstrap {
+    width:40%;
+    margin-left:-12%;
+    margin-top:-1%;
+  }
+  
+  #figma {
+    width:8%;
+    margin-top:5%;
+    margin-left:2%;
+    
+  }
+  
+  #xd {
+    margin-left:-10%; 
+    margin-top:4%;
+  }
+
 }
 
-/*** DESKTOPS  ***/
+/*** LAPTOPS ***/
 @media only screen and (min-width: 901px) and (max-width:1200px) {
 #menu-container {
   font-size:1.5em;
@@ -638,14 +675,31 @@ input {
   font-size: 1.5em;
 }
 
-#html, #css, #figma, #javascript {
+.skill-set li img {
+  display:inline;
+}
+
+#html, #css, #javascript, #xd  {
   width:32%;
 }
+
+#bootstrap {
+  width:65%;
+  margin-left:-12%;
+}
+
+#figma {
+  width:15%;
+  margin-top:-6%;
+  margin-left:12%;
   
-#xd, #bootstrap {
-  width:40%;
-  margin-top:2%;
- }
+}
+
+#xd {
+  margin-left:2%; 
+  margin-top:-8%;
+}
+
 
 #third {
   margin-top:-40%;
@@ -689,24 +743,24 @@ input {
 }
 
 
-/*** LARGER DESKTOPS***/
+/*** DESKTOPS***/
 
 @media only screen and (min-width:1201px) and (max-width:1500px) {
 
 #menu-container {
   font-size:1.75em;
-  margin:-5% 24%;
+  margin:-5% 26%;
   padding:5%;
 }
 
 #header-logo {
-  width:65%;
-  margin:4% 14%;
+  width:55%;
+  margin:6% 20%;
   }
 
 .sub-header {
   font-size: 1.75em;
-  margin-top: 2%;
+  margin-top: 4%;
   margin-left:-10%;
   }
 
@@ -792,7 +846,7 @@ input {
 #skillsbox {
   width:25%;
   margin-top: 2%;
-  margin-left:6%;
+  margin-left:5%;
   clear:both;
 }
 
@@ -801,14 +855,29 @@ input {
   margin-left: -8%;
 }
 
-#html, #css, #figma, #javascript {
-  width:32%;
+.skill-set li img {
+  display:inline;
 }
 
-#xd, #bootstrap {
-  width:40%;
-  margin-top:2%;
- }
+#html, #css, #javascript, #xd {
+  width:20%;
+}
+
+#bootstrap {
+  width:50%;
+  margin-left:-15%;
+}
+
+#figma {
+  width:10%;
+  margin-top:35%;
+  margin-left:-20%;
+}
+
+#xd {
+  margin-left:-12%; 
+  margin-top:8%;
+}
 
 #third {
   margin-top:-38%;
@@ -824,13 +893,14 @@ input {
 #project5 {
   width:18%;
   font-size:1em;
-  margin-left:1%;
+  margin-left:-1%;
 }
 
 #project6 {
   width:18%;
   font-size:1em;
   margin-left:-1%;
+  margin-top:-1%;
 }
 
 #replication, #newsletter, #template {
@@ -852,8 +922,8 @@ input {
 
 }
 
-/** JUMBOTRONS **/
-@media only screen and (min-width:1501px) and (max-width:1800px) {
+/** LARGE DESKTOPS **/
+@media only screen and (min-width:1501px) {
 
 #header-logo {
   width:65%;
@@ -960,7 +1030,7 @@ input {
 #skillsbox {
   width:20%;
   margin-top: 2%;
-  margin-left:6%;
+  margin-left:4%;
   clear:both;
 }
 
@@ -969,13 +1039,28 @@ input {
   margin-left: -8%;
 }
 
-#html, #css, #bootstrap, #figma, #javascript {
-  width:32%;
+.skill-set li img {
+  display:inline;
 }
-  
-#xd, #bootstrap {
-  width:40%;
-  margin-top:2%;
+
+#html, #css, #javascript, #xd {
+  width:30%;
+}
+
+#bootstrap {
+  width:70%;
+  margin-top:-3%;
+}
+
+#xd {
+  margin-left:4%;
+  margin-top:-2%;
+}
+
+#figma {
+  width:12%;
+  margin-top:1%;
+  margin-left:20%;
 }
 
 #third {
@@ -986,20 +1071,22 @@ input {
 #project4 {
   width:14%;
   font-size:1em;
-  margin-left:3%;
-  margin-top:-1%;
+  margin-left:-38%;
+  margin-top:6%;
 }
 
 #project5 {
   width:14%;
   font-size:1em;
-  margin-left:3%;
+  margin-left:-15%;
+  margin-top:7%;
 }
 
 #project6 {
   width:14%;
   font-size:1em;
   margin-left:0%;
+  margin-top:8%;
 }
 
 #replication, #newsletter, #template {
@@ -1010,16 +1097,12 @@ input {
   width:14%;
   font-size: 1em;
   padding:0% 0%;
-  margin-top:2%;
+  margin-top:1%;
 }
 
 #codewoke {
   margin-left:-4%;
  }
-
-
-
-
 
 }
 
